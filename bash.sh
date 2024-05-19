@@ -1,2 +1,2 @@
 conda env create -f myenv.yml
-conda activate myenv
+conda activate bot_project 
