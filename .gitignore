@@ -1,2 +1,4 @@
 .conda
 icloud_template.csv
+dist/
+build/
