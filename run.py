@@ -15,5 +15,5 @@ def click_on_img(path,region=None,confidence=0.8,click=True):
 if __name__ == "__main__":
     print("Program started...")
     while True:
-        click_on_img(path="img/sound_icon.png",click=True)
+        click_on_img(path="img/sound_icon.png",confidence=0.95,click=True)
     main()
