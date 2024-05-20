@@ -1,8 +1,5 @@
-import pandas as pd
 import pygetwindow as gw
-import threading
 import pyautogui
-import time
 def click_on_img(path,region=None,confidence=0.8,click=True):
     try:
         icon_location = pyautogui.locateOnScreen(path, grayscale=True, confidence=confidence,region=region)
@@ -18,5 +15,5 @@ def click_on_img(path,region=None,confidence=0.8,click=True):
 if __name__ == "__main__":
     print("Program started...")
     while True:
-        click_on_img("img/sound_icon.png",click=True)
+        click_on_img(path="img/sound_icon.png",click=True)
     main()
